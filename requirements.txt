@@ -1,0 +1,6 @@
+pandas
+plotly
+sqlalchemy
+pyodbc
+streamlit
+watchdog
