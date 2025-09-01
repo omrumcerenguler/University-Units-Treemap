@@ -1,0 +1,46 @@
+
+
+
+# Python cache ve bytecode dosyaları
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Sanal ortam klasörü
+.venv/
+venv/
+ENV/
+
+# Çevre değişkeni dosyaları
+.env
+*.env
+
+# IDE/Editor dosyaları
+.vscode/
+.idea/
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Log dosyaları
+*.log
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Test coverage ve pytest
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Requirements lock dosyaları
+*.lock
