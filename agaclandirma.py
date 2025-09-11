@@ -328,7 +328,7 @@ with left_col:
         height=900,
         margin=dict(l=10, r=10, t=40, b=10),
     )
-    st.plotly_chart(fig1, use_container_width=True, key=f"tm_{st.session_state.get('tm_key', 0)}")
+    st.plotly_chart(fig1, width="stretch", key=f"tm_{st.session_state.get('tm_key', 0)}")
 
 # ------------------------------------------------------------
 # Metin tabanlı katlanır (collapsible) ağaç
